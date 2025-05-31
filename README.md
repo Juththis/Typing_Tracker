@@ -1,6 +1,8 @@
 # Typing_Tracker
 A widget to calculate the real type typing speed calculator and accuracy rate calculator
 
+**On macOS or Linux, pynput may require accessibility permissions for global key tracking
+
 Features
 
 - Tracks individual key presses

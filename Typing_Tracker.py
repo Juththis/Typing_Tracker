@@ -39,7 +39,7 @@ class TypingSpeedCalculator(QWidget):
     def initUI(self):
         self.setWindowTitle('Typing Tracker')
         self.setGeometry(100, 100, 120, 60)
-        self.setWindowIcon(QIcon(r"C:\Users\ASUS\Documents\Python project\Typing_Tracker\computer-keyboard.png"))
+        self.setWindowIcon(QIcon("computer-keyboard.png"))
         self.setFixedSize(120,60)
         self.setStyleSheet("background-color: #f0f0f0; color: #1c1e33; font-size: 12px;")
         self.setWindowFlags(Qt.Window | Qt.CustomizeWindowHint | Qt.WindowCloseButtonHint|Qt.WindowStaysOnTopHint )
